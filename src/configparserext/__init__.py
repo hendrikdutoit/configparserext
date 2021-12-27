@@ -2,7 +2,7 @@
 
 
 from pathlib import Path
-from .configparserext import *
+from .ConfigParserExt import *
 
 
 _PROJ_DESC = __doc__.split('\n')[0]
