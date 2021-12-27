@@ -37,9 +37,9 @@
 .. image:: https://img.shields.io/pypi/v/ConfigParserExt
     :alt: PyPi
 
-Project Short Description (default ini)
+Expansion of python configparser module
 
-    Project long description or extended summary goes in here (default ini)
+    Insert description here
 
 =======
 Testing
