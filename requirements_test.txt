@@ -9,7 +9,7 @@ pip
 wheel
 beetools
 black
-configparserext==1.3.0
+configparserext
 gitignore_parser
 gitpython
 pre-commit

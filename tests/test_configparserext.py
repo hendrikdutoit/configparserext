@@ -2,7 +2,7 @@
 
 from pathlib import Path
 from beetools.beearchiver import Archiver
-import ConfigParserExt
+import configparserext
 
 
 _PROJ_DESC = __doc__.split('\n')[0]
@@ -20,7 +20,7 @@ class TestConfigParserExt:
     def test__init__(self, env_setup_self_destruct):
         """Assert class __init__"""
         env_setup = env_setup_self_destruct
-        t_cpe = ConfigParserExt.ConfigParserExt()
+        t_cpe = configparserext.ConfigParserExt()
         t_cpe.read(env_setup.ini_pth)
 
         assert t_cpe
@@ -29,7 +29,7 @@ class TestConfigParserExt:
     def test_get(self, env_setup_self_destruct):
         """Assert class __init__"""
         env_setup = env_setup_self_destruct
-        t_cpe = ConfigParserExt.ConfigParserExt()
+        t_cpe = configparserext.ConfigParserExt()
         t_cpe.read([env_setup.ini_pth])
 
         series_prefix = t_cpe.get('General', 'SeriesPrefix')
@@ -51,7 +51,7 @@ class TestConfigParserExt:
     def test_sections(self, env_setup_self_destruct):
         """Assert class __init__"""
         env_setup = env_setup_self_destruct
-        t_cpe = ConfigParserExt.ConfigParserExt()
+        t_cpe = configparserext.ConfigParserExt()
         t_cpe.read([env_setup.ini_pth])
 
         sections_series = t_cpe.sections()
@@ -61,7 +61,7 @@ class TestConfigParserExt:
     def test_options(self, env_setup_self_destruct):
         """Assert class __init__"""
         env_setup = env_setup_self_destruct
-        t_cpe = ConfigParserExt.ConfigParserExt()
+        t_cpe = configparserext.ConfigParserExt()
         t_cpe.read([env_setup.ini_pth])
 
         option_series = t_cpe.options('Series02')
@@ -72,7 +72,7 @@ class TestConfigParserExt:
         pass
 
     def test_do_examples(self):
-        ConfigParserExt.do_examples()
+        configparserext.do_examples()
 
 
 del b_tls

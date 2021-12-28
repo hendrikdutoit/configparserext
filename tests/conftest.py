@@ -6,7 +6,7 @@ from pathlib import Path
 import pytest
 from tempfile import mkdtemp
 from beetools import rm_tree
-import ConfigParserExt
+import configparserext
 
 _DESC = __doc__.split('\n')[0]
 _PATH = Path(__file__)
@@ -37,7 +37,7 @@ class EnvSetUp:
             },
             'Series03': {'cmd1': 5, 'cmd2': 6, 'str1': 'e', 'str2': 'f'},
         }
-        self.ini = ConfigParserExt.ConfigParserExt()
+        self.ini = configparserext.ConfigParserExt()
         for item in self.raw_struct:
             self.ini[item] = self.raw_struct[item]
         with open(self.ini_pth, 'w') as fp:
