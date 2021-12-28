@@ -1,6 +1,6 @@
 [1.4.3]
 Title = "Version 1.4.3"
-Description = ["Correct the camelCase naming convention according to PEP8","The module name was changed to camelCase as an experiment.  This is a mess.  Changed it back.",]
+Description = [ "Correct the camelCase naming convention according to PEP8", "The module name was changed to camelCase as an experiment.  This is a mess.  Changed it back.",]
 
 [1.4.2]
 Title = "Version 1.4.2"
