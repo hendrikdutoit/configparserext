@@ -1,3 +1,7 @@
+[1.4.4]
+Title = "Version 1.4.4"
+Description = [ "Something went wrong with the source code.  Still points to 1.2.0.  Bump version to publish correct source.",]
+
 [1.4.3]
 Title = "Version 1.4.3"
 Description = [ "Correct the camelCase naming convention according to PEP8", "The module name was changed to camelCase as an experiment.  This is a mess.  Changed it back.",]
