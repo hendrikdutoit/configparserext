@@ -1,4 +1,8 @@
-# Release 1.4.5
+# Release 1.4.7
+
+- Fix badges (take 2)
+
+# Release 1.4.6
 
 - Fix badges
 
