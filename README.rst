@@ -1,47 +1,100 @@
-Expansion of python configparser module
+===============
+ConfigParserExt
+===============
 
-    Insert description here
++-----------+------------------------------------------------------------------------------------+
+|**General**| |maintenance_n| |semver| |license|                                                 |
++-----------+------------------------------------------------------------------------------------+
+|**CI**     | |codestyle| |codecov|                                                              |
++-----------+------------------------------------------------------------------------------------+
+|**PyPI**   | |pypi_release| |pypi_py_versions| |pypi_status| |pypi_format| |pypi_downloads|     |
++-----------+------------------------------------------------------------------------------------+
+|**Github** | |gh_issues| |gh_language| |gh_last_commit| |gh_deployment|                         |
++-----------+------------------------------------------------------------------------------------+
 
-=======
-Testing
-=======
+    Expansion of python configparser module
 
-This project uses ``pytest`` to run tests and also to test docstring examples.
 
-Install the test dependencies.
 
-.. code-block:: bash
+.. General
 
-    $ pip install -r requirements_test.txt
+.. |maintenance_n| image:: https://img.shields.io/badge/Maintenance%20Intended-✖-red.svg?style=flat-square
+    :target: http://unmaintained.tech/
+    :alt: Maintenance - not intended
 
-Run the tests.
+.. |maintenance_y| image:: https://img.shields.io/badge/Maintenance%20Intended-✔-green.svg?style=flat-square
+    :target: http://unmaintained.tech/
+    :alt: Maintenance - intended
 
-==========
-Developing
-==========
+.. |license| image:: https://img.shields.io/pypi/l/PoetryExample
+    :target: https://github.com/hendrikdutoit/PoetryExample/blob/master/LICENSE
+    :alt: License
 
-This project uses ``black`` to format code and ``flake8`` for linting. We also support ``pre-commit`` to ensure these have been run. To configure your local environment please install these development dependencies and set up the commit hooks.
+.. |semver| image:: https://img.shields.io/badge/Semantic%20Versioning-2.0.0-brightgreen.svg?style=flat-square
+    :target: https://semver.org/
+    :alt: Semantic Versioning - 2.0.0
 
-.. code-block:: bash
+.. |codestyle| image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/psf/black
+    :alt: Code Style Black
 
-    $ pip install black flake8 pre-commit
-    $ pre-commit install
 
-=========
-Releasing
-=========
+.. CI
 
-Releases are published automatically when a tag is pushed to GitHub.
+.. |pre_commit_ci| image:: https://img.shields.io/github/actions/workflow/status/hendrikdutoit/PoetryExample/pre-commit.yml?label=pre-commit
+    :target: https://github.com/hendrikdutoit/PoetryExample/blob/master/.github/workflows/pre-commit.yml
+    :alt: Pre-Commit
 
-.. code-block:: bash
+.. |gha_tests| image:: https://img.shields.io/github/actions/workflow/status/hendrikdutoit/PoetryExample/ci.yml?label=ci
+    :target: https://github.com/hendrikdutoit/PoetryExample/blob/master/.github/workflows/ci.yml
+    :alt: Test status
 
-    # Set next version number
-    export RELEASE = x.x.x
+.. |gha_docu| image:: https://img.shields.io/readthedocs/sqlalchemyexample
+    :target: https://github.com/hendrikdutoit/PoetryExample/blob/master/.github/workflows/check-rst-documentation.yml
+    :alt: Read the Docs
 
-    # Create tags
-    git commit --allow -empty -m "Release $RELEASE"
-    git tag -a $RELEASE -m "Version $RELEASE"
+.. |codecov| image:: https://img.shields.io/codecov/c/gh/hendrikdutoit/PoetryExample
+    :alt: Codecov
+    :target: https://app.codecov.io/gh/hendrikdutoit/PoetryExample
 
-    # Push
-    git push upstream --tags
 
+.. PyPI
+
+.. |pypi_release| image:: https://img.shields.io/pypi/v/PoetryExample
+    :target: https://pypi.org/project/PoetryExample/
+    :alt: PyPI - Package latest release
+
+.. |pypi_py_versions| image:: https://img.shields.io/pypi/pyversions/PoetryExample
+    :target: https://pypi.org/project/PoetryExample/
+    :alt: PyPI - Supported Python Versions
+
+.. |pypi_format| image:: https://img.shields.io/pypi/wheel/PoetryExample
+    :target: https://pypi.org/project/PoetryExample/
+    :alt: PyPI - Format
+
+.. |pypi_downloads| image:: https://img.shields.io/pypi/dm/PoetryExample
+    :target: https://pypi.org/project/PoetryExample/
+    :alt: PyPI - Monthly downloads
+
+.. |pypi_status| image:: https://img.shields.io/pypi/status/PoetryExample
+    :target: https://pypi.org/project/PoetryExample/
+    :alt: PyPI - Status
+
+
+.. GitHub
+
+.. |gh_issues| image:: https://img.shields.io/github/issues-raw/hendrikdutoit/PoetryExample
+    :target: https://github.com/hendrikdutoit/PoetryExample/issues
+    :alt: GitHub - Issue Counter
+
+.. |gh_language| image:: https://img.shields.io/github/languages/top/hendrikdutoit/PoetryExample
+    :target: https://github.com/hendrikdutoit/PoetryExample
+    :alt: GitHub - Top Language
+
+.. |gh_last_commit| image:: https://img.shields.io/github/last-commit/BrightEdgeeServices/DateId/master
+    :target: https://github.com/BrightEdgeeServices/DateId/commit/master
+    :alt: GitHub - Last Commit
+
+.. |gh_deployment| image:: https://img.shields.io/github/deployments/BrightEdgeeServices/DateId/pypi
+    :target: https://github.com/BrightEdgeeServices/DateId/deployments/pypi
+    :alt: GitHub - PiPy Deployment
