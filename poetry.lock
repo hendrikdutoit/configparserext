@@ -13,6 +13,21 @@ files = [
 ]
 
 [[package]]
+name = "beetools"
+version = "5.2.4"
+description = "Tools for batch scripts, virtual environments and utilities."
+optional = false
+python-versions = ">=3.10"
+groups = ["main"]
+files = [
+    {file = "beetools-5.2.4-py3-none-any.whl", hash = "sha256:6d0e19a251c3527431e89d1022304f71e4a31b23576f7aa969bd1dbe87a56fe4"},
+    {file = "beetools-5.2.4.tar.gz", hash = "sha256:c7de2fc05563563aea9a3031cb02b271d71ef274f137c3c9803586b244e8a26a"},
+]
+
+[package.dependencies]
+termcolor = ">=2.5.0,<3.0.0"
+
+[[package]]
 name = "black"
 version = "24.10.0"
 description = "The uncompromising code formatter."
@@ -1139,6 +1154,21 @@ files = [
 ]
 
 [[package]]
+name = "termcolor"
+version = "2.5.0"
+description = "ANSI color formatting for output in terminal"
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "termcolor-2.5.0-py3-none-any.whl", hash = "sha256:37b17b5fc1e604945c2642c872a3764b5d547a48009871aea3edd3afa180afb8"},
+    {file = "termcolor-2.5.0.tar.gz", hash = "sha256:998d8d27da6d48442e8e1f016119076b690d962507531df4890fcd2db2ef8a6f"},
+]
+
+[package.extras]
+tests = ["pytest", "pytest-cov"]
+
+[[package]]
 name = "tomli"
 version = "2.2.1"
 description = "A lil' TOML parser"
@@ -1265,4 +1295,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.10"
-content-hash = "676540451b90a029f861fceb8b6ec66bebe9bf9b182a8c8742d6e521d2621c5a"
+content-hash = "ae73f58cb97b17a1bd0c772ec58be49bdecf35ce03c35d11aba70072c9ffb2e5"

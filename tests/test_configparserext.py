@@ -1,8 +1,6 @@
-"""Testing configparserext__init__()"""
+"""Testing configparserext"""
 
 from pathlib import Path
-
-from beetools.beearchiver import Archiver
 
 import configparserext
 
@@ -12,9 +10,6 @@ _PROJ_PATH = Path(__file__)
 
 def project_desc():
     return _PROJ_DESC
-
-
-b_tls = Archiver(_PROJ_DESC, _PROJ_PATH)
 
 
 class TestConfigParserExt:
@@ -72,6 +67,3 @@ class TestConfigParserExt:
 
     def test_do_examples(self):
         configparserext.do_examples()
-
-
-del b_tls

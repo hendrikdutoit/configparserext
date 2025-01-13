@@ -7,7 +7,7 @@ from pathlib import Path
 from tempfile import mkdtemp
 
 import pytest
-from beetools import rm_tree
+from beetools.utils import rm_tree
 
 import configparserext
 

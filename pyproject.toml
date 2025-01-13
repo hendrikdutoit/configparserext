@@ -25,7 +25,7 @@ classifiers = [
 ]
 # documentation = "https://readthedocs.org"
 
-dependencies = []
+dependencies = ["beetools (>=5.2.4,<6.0.0)"]
 requires-python = ">=3.10"
 
 [project.urls]

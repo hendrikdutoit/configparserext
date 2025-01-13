@@ -8,8 +8,7 @@ import logging
 from collections import OrderedDict as _default_dict
 from pathlib import Path
 
-from beetools import Archiver
-from beetools import result_rep
+from beetools.utils import result_rep
 
 _PROJ_DESC = __doc__.split("\n")[0]
 _PROJ_PATH = Path(__file__)
@@ -180,10 +179,7 @@ def do_examples(p_cls=True):
         result_rep(success, "Completed")
         return success
 
-    archiver = Archiver(_PROJ_DESC, _PROJ_PATH)
-    archiver.print_header(p_cls=p_cls)
     success = basic_test()
-    archiver.print_footer()
     return success
 
 
