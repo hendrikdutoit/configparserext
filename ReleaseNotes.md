@@ -1,5 +1,9 @@
-# Release 0.0.1
+# Release 1.4.5
 
-## General Changes
+- Fix badges
 
-- Initial setup and configuration.
+# Release 1.4.5
+
+- Restructure project
+- Reconfigure pyproject.toml
+- Configure Poetry in pyproject.toml

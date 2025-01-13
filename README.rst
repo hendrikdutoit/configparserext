@@ -12,7 +12,7 @@ ConfigParserExt
 |**Github** | |gh_issues| |gh_language| |gh_last_commit| |gh_deployment|                         |
 +-----------+------------------------------------------------------------------------------------+
 
-    Expansion of python configparser module
+    Expansion of python configparser module.  There are much better tools than this like JSON, TOML & YAML.  Do not use this tool.
 
 
 
@@ -27,7 +27,7 @@ ConfigParserExt
     :alt: Maintenance - intended
 
 .. |license| image:: https://img.shields.io/pypi/l/PoetryExample
-    :target: https://github.com/hendrikdutoit/PoetryExample/blob/master/LICENSE
+    :target: https://github.com/BrightEdgeeServices/ConfigParserExt/blob/master/LICENSE
     :alt: License
 
 .. |semver| image:: https://img.shields.io/badge/Semantic%20Versioning-2.0.0-brightgreen.svg?style=flat-square
@@ -41,21 +41,21 @@ ConfigParserExt
 
 .. CI
 
-.. |pre_commit_ci| image:: https://img.shields.io/github/actions/workflow/status/hendrikdutoit/PoetryExample/pre-commit.yml?label=pre-commit
-    :target: https://github.com/hendrikdutoit/PoetryExample/blob/master/.github/workflows/pre-commit.yml
+.. |pre_commit_ci| image:: https://img.shields.io/github/actions/workflow/status/BrightEdgeeServices/ConfigParserExt/pre-commit.yml?label=pre-commit
+    :target: https://github.com/BrightEdgeeServices/ConfigParserExt/blob/master/.github/workflows/pre-commit.yml
     :alt: Pre-Commit
 
-.. |gha_tests| image:: https://img.shields.io/github/actions/workflow/status/hendrikdutoit/PoetryExample/ci.yml?label=ci
-    :target: https://github.com/hendrikdutoit/PoetryExample/blob/master/.github/workflows/ci.yml
+.. |gha_tests| image:: https://img.shields.io/github/actions/workflow/status/BrightEdgeeServices/ConfigParserExt/ci.yml?label=ci
+    :target: https://github.com/BrightEdgeeServices/ConfigParserExt/blob/master/.github/workflows/ci.yml
     :alt: Test status
 
 .. |gha_docu| image:: https://img.shields.io/readthedocs/sqlalchemyexample
-    :target: https://github.com/hendrikdutoit/PoetryExample/blob/master/.github/workflows/check-rst-documentation.yml
+    :target: https://github.com/BrightEdgeeServices/ConfigParserExt/blob/master/.github/workflows/check-rst-documentation.yml
     :alt: Read the Docs
 
-.. |codecov| image:: https://img.shields.io/codecov/c/gh/hendrikdutoit/PoetryExample
+.. |codecov| image:: https://img.shields.io/codecov/c/gh/BrightEdgeeServices/ConfigParserExt
     :alt: Codecov
-    :target: https://app.codecov.io/gh/hendrikdutoit/PoetryExample
+    :target: https://app.codecov.io/gh/BrightEdgeeServices/ConfigParserExt
 
 
 .. PyPI
@@ -83,12 +83,12 @@ ConfigParserExt
 
 .. GitHub
 
-.. |gh_issues| image:: https://img.shields.io/github/issues-raw/hendrikdutoit/PoetryExample
-    :target: https://github.com/hendrikdutoit/PoetryExample/issues
+.. |gh_issues| image:: https://img.shields.io/github/issues-raw/BrightEdgeeServices/ConfigParserExt
+    :target: https://github.com/BrightEdgeeServices/ConfigParserExt/issues
     :alt: GitHub - Issue Counter
 
-.. |gh_language| image:: https://img.shields.io/github/languages/top/hendrikdutoit/PoetryExample
-    :target: https://github.com/hendrikdutoit/PoetryExample
+.. |gh_language| image:: https://img.shields.io/github/languages/top/BrightEdgeeServices/ConfigParserExt
+    :target: https://github.com/BrightEdgeeServices/ConfigParserExt
     :alt: GitHub - Top Language
 
 .. |gh_last_commit| image:: https://img.shields.io/github/last-commit/BrightEdgeeServices/DateId/master
