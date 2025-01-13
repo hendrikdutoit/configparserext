@@ -56,7 +56,6 @@ ConfigParserExt
 .. |codecov| image:: https://img.shields.io/codecov/c/gh/hendrikdutoit/PoetryExample
     :alt: Codecov
     :target: https://app.codecov.io/gh/hendrikdutoit/PoetryExample
-    :alt: CodeCov
 
 
 .. PyPI
