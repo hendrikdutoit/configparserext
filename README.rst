@@ -60,24 +60,24 @@ ConfigParserExt
 
 .. PyPI
 
-.. |pypi_release| image:: https://img.shields.io/pypi/v/PoetryExample
-    :target: https://pypi.org/project/PoetryExample/
+.. |pypi_release| image:: https://img.shields.io/pypi/v/ConfigParserExt
+    :target: https://pypi.org/project/ConfigParserExt/
     :alt: PyPI - Package latest release
 
-.. |pypi_py_versions| image:: https://img.shields.io/pypi/pyversions/PoetryExample
-    :target: https://pypi.org/project/PoetryExample/
+.. |pypi_py_versions| image:: https://img.shields.io/pypi/pyversions/ConfigParserExt
+    :target: https://pypi.org/project/ConfigParserExt/
     :alt: PyPI - Supported Python Versions
 
-.. |pypi_format| image:: https://img.shields.io/pypi/wheel/PoetryExample
-    :target: https://pypi.org/project/PoetryExample/
+.. |pypi_format| image:: https://img.shields.io/pypi/wheel/ConfigParserExt
+    :target: https://pypi.org/project/ConfigParserExt/
     :alt: PyPI - Format
 
-.. |pypi_downloads| image:: https://img.shields.io/pypi/dm/PoetryExample
-    :target: https://pypi.org/project/PoetryExample/
+.. |pypi_downloads| image:: https://img.shields.io/pypi/dm/ConfigParserExt
+    :target: https://pypi.org/project/ConfigParserExt/
     :alt: PyPI - Monthly downloads
 
-.. |pypi_status| image:: https://img.shields.io/pypi/status/PoetryExample
-    :target: https://pypi.org/project/PoetryExample/
+.. |pypi_status| image:: https://img.shields.io/pypi/status/ConfigParserExt
+    :target: https://pypi.org/project/ConfigParserExt/
     :alt: PyPI - Status
 
 
