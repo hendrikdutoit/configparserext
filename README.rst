@@ -3,7 +3,7 @@ ConfigParserExt
 ===============
 
 +-----------+------------------------------------------------------------------------------------+
-|**General**| |maintenance_y| |semver| |license|                                                 |
+|**General**| |maintenance_n| |semver| |license|                                                 |
 +-----------+------------------------------------------------------------------------------------+
 |**CI**     | |codestyle| |codecov|                                                              |
 +-----------+------------------------------------------------------------------------------------+
@@ -54,6 +54,7 @@ ConfigParserExt
     :alt: Read the Docs
 
 .. |codecov| image:: https://img.shields.io/codecov/c/gh/hendrikdutoit/PoetryExample
+    :alt: Codecov
     :target: https://app.codecov.io/gh/hendrikdutoit/PoetryExample
     :alt: CodeCov
 
@@ -91,3 +92,10 @@ ConfigParserExt
     :target: https://github.com/hendrikdutoit/PoetryExample
     :alt: GitHub - Top Language
 
+.. |gh_last_commit| image:: https://img.shields.io/github/last-commit/BrightEdgeeServices/DateId/master
+    :target: https://github.com/BrightEdgeeServices/DateId/commit/master
+    :alt: GitHub - Last Commit
+
+.. |gh_deployment| image:: https://img.shields.io/github/deployments/BrightEdgeeServices/DateId/pypi
+    :target: https://github.com/BrightEdgeeServices/DateId/deployments/pypi
+    :alt: GitHub - PiPy Deployment
