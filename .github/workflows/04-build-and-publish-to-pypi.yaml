@@ -76,10 +76,14 @@ jobs:
           pip install poetry
           poetry install
 
-      - name: Build package
+      - name: Build and publish with Poetry
         run: |
+          # Build the source and wheel distributions
           poetry build
-          ls -la dist  # Just to verify the artifacts exist
+          # Publish to PyPI using the API token stored in GitHub Secrets
+          poetry publish \
+            --username __token__ \
+            --password "${{ secrets.PYPI_API_TOKEN_231021 }}"
 
       - name: New release
         uses: softprops/action-gh-release@v2
@@ -89,16 +93,6 @@ jobs:
           body_path: ${{ github.workspace }}/ReleaseNotes.md
           draft: false
           prerelease: false
-
-      - name: Publish to PyPI
-        uses: pypa/gh-action-pypi-publish@release/v1
-        with:
-          # user: __token__
-          # password: ${{ secrets.PYPI_API_TOKEN }}  # or your PyPI API token
-          packages_dir: dist
-          verify_metadata: true  # optional, default: true
-          # skip_existing: false   # optional
-          # attestations: true     # optional
 
   Send-Notice:
     needs: Build-and-Publish

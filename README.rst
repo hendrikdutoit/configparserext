@@ -26,7 +26,7 @@ ConfigParserExt
     :target: http://unmaintained.tech/
     :alt: Maintenance - intended
 
-.. |license| image:: https://img.shields.io/pypi/l/PoetryExample
+.. |license| image:: https://img.shields.io/pypi/l/ConfigParserExt
     :target: https://github.com/BrightEdgeeServices/ConfigParserExt/blob/master/LICENSE
     :alt: License
 
@@ -54,8 +54,8 @@ ConfigParserExt
     :alt: Read the Docs
 
 .. |codecov| image:: https://img.shields.io/codecov/c/gh/BrightEdgeeServices/ConfigParserExt
-    :alt: Codecov
     :target: https://app.codecov.io/gh/BrightEdgeeServices/ConfigParserExt
+    :alt: Codecov
 
 
 .. PyPI
@@ -91,10 +91,10 @@ ConfigParserExt
     :target: https://github.com/BrightEdgeeServices/ConfigParserExt
     :alt: GitHub - Top Language
 
-.. |gh_last_commit| image:: https://img.shields.io/github/last-commit/BrightEdgeeServices/DateId/master
-    :target: https://github.com/BrightEdgeeServices/DateId/commit/master
+.. |gh_last_commit| image:: https://img.shields.io/github/last-commit/BrightEdgeeServices/ConfigParserExt/master
+    :target: https://github.com/BrightEdgeeServices/ConfigParserExt/commit/master
     :alt: GitHub - Last Commit
 
-.. |gh_deployment| image:: https://img.shields.io/github/deployments/BrightEdgeeServices/DateId/pypi
-    :target: https://github.com/BrightEdgeeServices/DateId/deployments/pypi
+.. |gh_deployment| image:: https://img.shields.io/github/deployments/BrightEdgeeServices/ConfigParserExt/pypi
+    :target: https://github.com/BrightEdgeeServices/ConfigParserExt/deployments/pypi
     :alt: GitHub - PiPy Deployment
