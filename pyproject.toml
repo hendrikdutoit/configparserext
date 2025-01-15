@@ -13,12 +13,12 @@ authors = [
 license = "MIT"
 readme = "README.rst"
 classifiers = [
-    'Development Status :: 4 - Beta',
-    'Intended Audience :: Developers',
-    'Intended Audience :: Information Technology',
-    'Topic :: Software Development',
-    'Topic :: System :: Archiving :: Packaging',
-    'License :: OSI Approved :: MIT License',
+    "Development Status :: 7 - Inactive",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Topic :: Software Development",
+    "Topic :: System :: Archiving :: Packaging",
+    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     'Programming Language :: Python :: 3.12',
